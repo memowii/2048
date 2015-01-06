@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #9cc2d2;
+  background-image: url('../batman_background.png');
   color: #354b59;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -12,9 +13,6 @@ html, body {
 body {
   margin: 80px 0; }
 
-p.learn {
-  margin-top: 20px;
-}
 
 span.tile-text {
   line-height: 1.25;
@@ -60,9 +58,12 @@ input {
   clear: both; }
 
 h1.title {
-  font-size: 55px;
+  color: #C0C0C0;
+  font-size: 29px;
   font-weight: medium;
   margin: 0;
+  position: relative;
+  bottom: -18px;
   display: block;
   float: left; }
 
@@ -210,7 +211,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #1e6477;
+  background: #2F4F4F;
   border-radius: 6px;
   width: 500px;
   height: 500px;
